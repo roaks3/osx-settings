@@ -194,10 +194,10 @@
     // When disabled, tab will only trigger snippets or insert a tab.
     // Shift+tab can be used to insert an explicit tab when tab_completion is
     // enabled.
-    "tab_completion": true,
+    "tab_completion": false,
 
     // Enable auto complete to be triggered automatically when typing.
-    "auto_complete": true,
+    "auto_complete": false,
 
     // The maximum file size where auto complete will be automatically triggered.
     "auto_complete_size_limit": 4194304,
@@ -301,7 +301,7 @@
     "open_files_in_new_window": true,
 
     // OS X only: This controls if an empty window is created at startup or not.
-    "create_window_at_startup": true,
+    "create_window_at_startup": false,
 
     // Set to true to close windows as soon as the last file is closed, unless
     // there's a folder open within the window. This is always enabled on OS X,
@@ -334,4 +334,3 @@
     // a restart may be required if the package contains plugins.
     "ignored_packages": ["Vintage"]
 }
-
