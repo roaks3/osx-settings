@@ -1,0 +1,15 @@
+[user]
+	email = roaks3@gmail.com
+	name = Ryan Oaks
+[alias]
+	st = status
+	co = checkout
+	cp = cherry-pick
+	undo-commit = reset --soft HEAD^
+[color]
+	status = auto
+	diff = auto
+	branch = auto
+[pull]
+	rebase = true
+

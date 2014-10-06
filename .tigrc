@@ -1,0 +1,5 @@
+color date blue default bold
+color graph-commit blue default bold
+color diff-index blue default bold
+color diff-stat blue default bold
+
